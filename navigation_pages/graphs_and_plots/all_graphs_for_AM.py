@@ -485,7 +485,7 @@ def Distribution_of_Property_Cost_across_6_Major_Localities():
         #),
         xaxis=dict(
             title=dict(text="Locality",
-                       ont=dict(size=24, color='white',family="Calibri")),
+                       font=dict(size=24, color='white',family="Calibri")),
             tickmode='array',
             tickvals=list(range(len(tick_names))),
             ticktext=tick_names,
