@@ -757,8 +757,10 @@ def Price_Buckets_VS_Number_of_Property_listings_cate1():
     
     # Layout
     fig.update_layout(
-        yaxis=dict(title="Total Property Count", range=[0, 630],
-                   titlefont=dict(size=25, family="Calibri", color='white'),
+        yaxis=dict(title=dict(text="Total Property Count", 
+                              font=dict(size=25, family="Calibri", color='white')),
+                    range=[0, 630],
+                   #titlefont=dict(size=25, family="Calibri", color='white'),
                    tickfont=dict(size=18, color='white',family="Calibri"),
                    showgrid=False, gridcolor="white", gridwidth=0,
                    minor=dict(showgrid=False, gridcolor="white", gridwidth=0), zeroline=False),
