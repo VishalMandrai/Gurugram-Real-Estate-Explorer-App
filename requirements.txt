@@ -1,5 +1,6 @@
 streamlit==1.50.0
 streamlit-pdf==1.0.7
+streamlit-folium==0.25.1
 pandas
 numpy
 plotly
