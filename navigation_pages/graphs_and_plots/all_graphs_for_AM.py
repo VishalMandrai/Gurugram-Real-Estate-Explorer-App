@@ -488,7 +488,7 @@ def Distribution_of_Property_Cost_across_6_Major_Localities():
             tickmode='array',
             tickvals=list(range(len(tick_names))),
             ticktext=tick_names,
-            #titlefont=dict(size=24, color='white',family="Calibri"),
+            font=dict(size=24, color='white',family="Calibri"),
             tickfont=dict(size=16, color='white',family="Calibri"), showgrid=False,
         ),
         yaxis=dict(
@@ -497,7 +497,7 @@ def Distribution_of_Property_Cost_across_6_Major_Localities():
             range=[-2500, 20200],
             tickmode='array',
             tickvals=[f"{i}  " for i in range(0,20001,2500)],
-            #titlefont=dict(size=24, color='white',family="Calibri"),
+            font=dict(size=24, color='white',family="Calibri"),
             tickfont=dict(size=16, color='white',family="Calibri"),
             showgrid=False, gridcolor="black", gridwidth=0,
             minor=dict(showgrid=False, gridcolor="black", gridwidth=0), zeroline=False
