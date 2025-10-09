@@ -484,20 +484,22 @@ def Distribution_of_Property_Cost_across_6_Major_Localities():
         #    font=dict(size=20, color="black", family="Arial Black")
         #),
         xaxis=dict(
-            title="Locality",
+            title=dict(text="Locality",
+                       ont=dict(size=24, color='white',family="Calibri")),
             tickmode='array',
             tickvals=list(range(len(tick_names))),
             ticktext=tick_names,
-            font=dict(size=24, color='white',family="Calibri"),
+            #titlefont=dict(size=24, color='white',family="Calibri"),
             tickfont=dict(size=16, color='white',family="Calibri"), showgrid=False,
         ),
         yaxis=dict(
-            title="Price Density (in ₹/Sq.ft)",
+            title=dict(text="Price Density (in ₹/Sq.ft)",
+                       font=dict(size=24, color='white',family="Calibri")),
             title_standoff=20, ticklabelposition="outside left",
             range=[-2500, 20200],
             tickmode='array',
             tickvals=[f"{i}  " for i in range(0,20001,2500)],
-            font=dict(size=24, color='white',family="Calibri"),
+            #titlefont=dict(size=24, color='white',family="Calibri"),
             tickfont=dict(size=16, color='white',family="Calibri"),
             showgrid=False, gridcolor="black", gridwidth=0,
             minor=dict(showgrid=False, gridcolor="black", gridwidth=0), zeroline=False
