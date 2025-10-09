@@ -1,0 +1,112 @@
+,Sector,Location_(lat_long),Locality
+0,Sector 1,"(28.5187813, 77.0418623)",Old Gurgaon
+1,Sector 102,"(28.4754872, 76.9711747)",Dwarka Expressway Belt
+2,Sector 102A,"(28.4830826, 76.9779064)",Dwarka Expressway Belt
+3,Sector 103,"(28.493087, 76.9866453)",Dwarka Expressway Belt
+4,Sector 104,"(28.4795324, 76.9937197)",Dwarka Expressway Belt
+5,Sector 105,"(28.4943133, 77.0081378)",Dwarka Expressway Belt
+6,Sector 106,"(28.5060806, 76.9967796)",Dwarka Expressway Belt
+7,Sector 107,"(28.506941, 76.9752137)",Dwarka Expressway Belt
+8,Sector 108,"(28.5128994, 76.9823615)",Dwarka Expressway Belt
+9,Sector 109,"(28.5109205, 77.0065956)",Dwarka Expressway Belt
+10,Sector 10A,"(28.4445813, 77.0060231)",Old Gurgaon
+11,Sector 11,"(28.4522331, 77.0267159)",Old Gurgaon
+12,Sector 110,"(28.5069625, 77.018321)",Dwarka Expressway Belt
+13,Sector 110A,"(28.5159108, 77.0276475)",Dwarka Expressway Belt
+14,Sector 111,"(28.5222773, 77.0336203)",Dwarka Expressway Belt
+15,Sector 112,"(28.5203402, 77.0188612)",Dwarka Expressway Belt
+16,Sector 113,"(28.5286649, 77.0250282)",Dwarka Expressway Belt
+17,Sector 114,"(28.531878, 77.0117794)",Dwarka Expressway Belt
+18,Sector 12,"(28.464066, 77.0259664)",Old Gurgaon
+19,Sector 13,"(28.4745997, 77.036719)",Old Gurgaon
+20,Sector 14,"(28.473784, 77.0471827)",Old Gurgaon
+21,Sector 15,"(28.3843199, 76.9122326)",Old Gurgaon
+22,Sector 16,"(28.4687344, 77.0511794)",Old Gurgaon
+23,Sector 2,"(28.5090499, 77.0342831)",Old Gurgaon
+24,Sector 21,"(28.5143629, 77.0730087)",Old Gurgaon
+25,Sector 23,"(28.510319, 77.0530094)",Old Gurgaon
+26,Sector 25,"(28.4860888, 77.084224)",Old Gurgaon
+27,Sector 27,"(28.4646566, 77.0839505)",MG Road & Central Gurugram
+28,Sector 28,"(28.4741302, 77.0825722)",MG Road & Central Gurugram
+29,Sector 3,"(28.3627664, 76.9193261)",Old Gurgaon
+30,Sector 30,"(28.4616245, 77.0566819)",MG Road & Central Gurugram
+31,Sector 31,"(28.4540044, 77.0497179)",MG Road & Central Gurugram
+32,Sector 32,"(28.4458035, 77.0413169)",Old Gurgaon
+33,Sector 33,"(28.4384785, 77.0251655)",Old Gurgaon
+34,Sector 35,"(28.4145669, 77.0018689)",Old Gurgaon
+35,Sector 36,"(28.419334, 76.9889256)",Old Gurgaon
+36,Sector 36A,"(28.4202285, 76.9719998)",Old Gurgaon
+37,Sector 37B,"(28.4333189, 76.9813419)",Old Gurgaon
+38,Sector 37C,"(28.4489095, 76.9880502)",Old Gurgaon
+39,Sector 37D,"(28.4480039, 76.9697682)",Old Gurgaon
+40,Sector 39,"(28.4423675, 77.0504724)",MG Road & Central Gurugram
+41,Sector 3A,"(28.3661708, 76.8916108)",Old Gurgaon
+42,Sector 4,"(28.4750063, 77.0103535)",Old Gurgaon
+43,Sector 40,"(28.4500427, 77.0577093)",MG Road & Central Gurugram
+44,Sector 41,"(28.4569188, 77.0646046)",MG Road & Central Gurugram
+45,Sector 42,"(28.4558973, 77.1084759)",Golf Course Road & Extension
+46,Sector 43,"(28.4548735, 77.0858864)",MG Road & Central Gurugram
+47,Sector 45,"(28.4449004, 77.0663545)",MG Road & Central Gurugram
+48,Sector 46,"(28.4359133, 77.0584045)",MG Road & Central Gurugram
+49,Sector 47,"(28.4251572, 77.0475128)",MG Road & Central Gurugram
+50,Sector 48,"(28.4104903, 77.0394627)",MG Road & Central Gurugram
+51,Sector 49,"(28.4128851, 77.0498362)",MG Road & Central Gurugram
+52,Sector 5,"(28.3673537, 76.9267238)",Old Gurgaon
+53,Sector 50,"(28.4166536, 77.0611745)",Golf Course Road & Extension
+54,Sector 51,"(28.4287011, 77.0666877)",MG Road & Central Gurugram
+55,Sector 52,"(28.4368166, 77.0795276)",MG Road & Central Gurugram
+56,Sector 53,"(28.4415191, 77.096805)",Golf Course Road & Extension
+57,Sector 54,"(28.441611, 77.1118718)",Golf Course Road & Extension
+58,Sector 55,"(28.4274166, 77.1097538)",Golf Course Road & Extension
+59,Sector 56,"(28.4253232, 77.0985157)",Golf Course Road & Extension
+60,Sector 57,"(28.4232478, 77.0804487)",MG Road & Central Gurugram
+61,Sector 58,"(28.4160012, 77.1085564)",Golf Course Road & Extension
+62,Sector 59,"(28.4030162, 77.1066682)",Golf Course Road & Extension
+63,Sector 6,"(28.3759219, 76.9245485)",Old Gurgaon
+64,Sector 60,"(28.3985617, 77.0978276)",Golf Course Road & Extension
+65,Sector 61,"(28.4110188, 77.0963685)",Golf Course Road & Extension
+66,Sector 62,"(28.407697, 77.0823781)",Golf Course Road & Extension
+67,Sector 63,"(28.3964476, 77.086498)",Golf Course Road & Extension
+68,Sector 65,"(28.4030162, 77.0695893)",Golf Course Road & Extension
+69,Sector 66,"(28.3974292, 77.0538823)",Golf Course Road & Extension
+70,Sector 67,"(28.3864052, 77.0598046)",Golf Course Road & Extension
+71,Sector 68,"(28.388897, 77.0459859)",Southern Peripheral Road (SPR) Belt
+72,Sector 69,"(28.3960701, 77.0372311)",Southern Peripheral Road (SPR) Belt
+73,Sector 7,"(28.3760277, 76.9122152)",Old Gurgaon
+74,Sector 70,"(28.3947261, 77.0223138)",Southern Peripheral Road (SPR) Belt
+75,Sector 70A,"(28.3846684, 77.0220391)",Southern Peripheral Road (SPR) Belt
+76,Sector 71,"(28.4064564, 77.0233125)",Southern Peripheral Road (SPR) Belt
+77,Sector 72,"(28.4159257, 77.0290772)",Southern Peripheral Road (SPR) Belt
+78,Sector 72A,"(28.4233234, 77.0187775)",Southern Peripheral Road (SPR) Belt
+79,Sector 74,"(28.4112763, 77.010669)",Southern Peripheral Road (SPR) Belt
+80,Sector 76,"(28.3910112, 76.9900243)",New Gurugram
+81,Sector 77,"(28.3832337, 76.982557)",New Gurugram
+82,Sector 78,"(28.3725283, 76.9702955)",New Gurugram
+83,Sector 8,"(28.4598966, 77.0198043)",Old Gurgaon
+84,Sector 80,"(28.3702173, 76.9611159)",New Gurugram
+85,Sector 81,"(28.3873647, 76.9475835)",New Gurugram
+86,Sector 82,"(28.3931076, 76.9588762)",New Gurugram
+87,Sector 82A,"(28.3858766, 76.9639317)",New Gurugram
+88,Sector 83,"(28.3981087, 76.9732873)",New Gurugram
+89,Sector 84,"(28.4082289, 76.9630245)",New Gurugram
+90,Sector 85,"(28.403652, 76.9531428)",New Gurugram
+91,Sector 86,"(28.3981205, 76.9411257)",New Gurugram
+92,Sector 88,"(28.4219647, 76.9568078)",New Gurugram
+93,Sector 88A,"(28.4337898, 76.9539433)",New Gurugram
+94,Sector 88B,"(28.4420223, 76.9538495)",New Gurugram
+95,Sector 89,"(28.4184455, 76.9457567)",New Gurugram
+96,Sector 9,"(28.3840986, 76.8861337)",Old Gurgaon
+97,Sector 90,"(28.4069974, 76.9365562)",New Gurugram
+98,Sector 91,"(28.4007588, 76.9210802)",New Gurugram
+99,Sector 92,"(28.4089049, 76.9155232)",New Gurugram
+100,Sector 93,"(28.4156048, 76.931638)",New Gurugram
+101,Sector 95,"(28.4149443, 76.9114892)",New Gurugram
+102,Sector 99,"(28.4645549, 76.9628585)",Dwarka Expressway Belt
+103,Sector 99A,"(28.4554059, 76.9510278)",Dwarka Expressway Belt
+104,Sector 9A,"(28.4690266, 76.9962811)",Old Gurgaon
+105,Sector 95A,"(28.426163887448066, 76.92446670817928)",New Gurugram
+106,Sector 89A,"(28.432278916542593, 76.94137572662338)",New Gurugram
+107,Sector 79,"(28.36397715506277, 76.9805550962224)",New Gurugram
+108,Sector 17A,"(28.4782746802606, 77.05779005474827)",Old Gurgaon
+109,Sector 22A,"(28.505716964038275, 77.07207837211523)",Old Gurgaon
+110,Sector 63A,"(28.39186544402343, 77.08978257840688)",Golf Course Road & Extension
