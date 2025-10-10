@@ -1,4 +1,4 @@
-# **🏙️ Gurugram Real Estate Explorer - App**
+# <CENTER>**🏙️ Gurugram Real Estate Explorer - App**</CENTER>
 
 ### 🔍 **An Interactive Data Science App that provides an Analytics Module, Insights Dashboard, Price Prediction Engine, and a Smart Flat Recommendation System to help explore the Gurugram Real Estate landscape with ease.**
 
@@ -6,7 +6,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-lightblue?logo=plotly)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-green?logo=xgboost)
-![License](https://img.shields.io/badge/License-MIT-orange)
 
 ---
 
