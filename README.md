@@ -117,8 +117,8 @@ Key learnings:
 ## 📬 Contact
 
 👤 **Vishal Mandrai**
-📧 [vishal.mandrai@gmail.com](mailto:vishalm.nitt@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/vishalmandrai999/)
+📧 [vishalm.nitt@gmail.com](mailto:vishalm.nitt@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/vishal-mandrai999/)
 💻 [GitHub](https://github.com/vishalmandrai)
 
 ---
