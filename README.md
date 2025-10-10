@@ -20,33 +20,27 @@ It combines **data-driven insights**, **rich geospatial visualizations**, and **
 ## 🚀 Key Features
 
 ### 🧭 **1. Interactive Data Exploration**
-
 * Explore flats across **Gurgaon sectors and localities**
-* Filter by **furnishing**, **parking**, **amenities**, and **seller type**
+* Filter by **furnishing**, **parking** and **amenities**
 * Dynamic **boxplots, bar charts, and density plots** powered by Plotly
 
 ### 💰 **2. Price Density Analytics**
-
 * Visualizes **Median Price Density (₹/sq.ft)** for each locality
 * Understand **floor-rise premiums**, **builder effects**, and **neighborhood price clusters**
 * Supports **sector-wise comparison** and **area segmentation**
 
 ### 🧠 **3. Machine Learning Price Prediction**
-
 * Built and optimized using **XGBoost Regressor**
-* Features include: `Area`, `Sector`, `Furnishing`, `EMI`, `Parking`, etc.
+* Features include: `Area`, `Sector`, `Furnishing`, `Parking`, etc.
 * Handles categorical + numerical data using a **custom feature engineering pipeline**
-* Supports **real-time price predictions** in the app
+* Supports **real-time price predictions** in the app.
 
 ### 🗺️ **4. Map-Based Visual Insights**
-
 * Interactive **Folium + OpenStreetMap** visualization of listings
-* Sector boundaries and property markers with tooltips for price and area
+* Sector and amenity markers with tooltips for each sector
 
 ### 📊 **5. Business-Level Insights**
-
 * Highlights **hot sectors**, **premium projects**, and **affordable zones**
-* Detects **overpriced** or **underpriced** properties using density comparisons
 
 ---
 
@@ -62,29 +56,6 @@ It combines **data-driven insights**, **rich geospatial visualizations**, and **
 | **Deployment**       | Streamlit Cloud / GitHub Pages |
 | **Version Control**  | Git + GitHub                   |
 
----
-
-## 🏗️ Project Structure
-
-```
-Gurugram_RealEstate_Explorer/
-│
-├── 📁 data/                     # Cleaned and processed datasets (hidden or private)
-├── 📁 pages/                    # Multi-page Streamlit structure
-│   ├── 1_🏙️_Overview.py
-│   ├── 2_📊_Price_Density_Analysis.py
-│   ├── 3_🧠_Price_Prediction.py
-│   ├── 4_🗺️_Map_Explorer.py
-│
-├── 📁 models/                   # ML model and pipeline
-│   ├── trained_xgb_model.pkl
-│   ├── pipeline.pkl
-│
-├── app.py                       # Main entry point for Streamlit
-├── requirements.txt             # Dependencies
-├── README.md                    # You are here
-└── .gitignore                   # To hide data and model files
-```
 
 ---
 
@@ -114,15 +85,8 @@ pip install -r requirements.txt
 ### 🔸 Run the Streamlit app
 
 ```bash
-streamlit run app.py
+streamlit run gurgaon_app.py
 ```
-
----
-
-## 🔐 Data Privacy
-
-The raw property dataset used in this project is **not included in the public repository** for privacy reasons.
-If you wish to explore or contribute, please contact the maintainer for access or use mock data available in the `sample_data/` directory.
 
 ---
 
@@ -133,7 +97,7 @@ Key learnings:
 
 * Price strongly depends on **locality density**, **floor-rise premium**, and **furnishing status**
 * Incorporating **Median Price Density (MPD)** as a spatial feature improved performance significantly
-* Achieved an **R² score of ~0.87** on test data
+* Achieved an **R² score of ~0.90** on test data
 
 ---
 
@@ -141,36 +105,22 @@ Key learnings:
 
 | Home Page                | Analytics Page                     | Prediction Page                      |
 | ------------------------ | ---------------------------------- | ------------------------------------ |
-| ![Home](assets/home.png) | ![Analytics](assets/analytics.png) | ![Prediction](assets/prediction.png) |
+
+| <img width="1918" height="829" alt="image" src="https://github.com/user-attachments/assets/8701d978-07bd-4158-b418-6cf69d1cad1e" />
+
+ | <img width="1919" height="807" alt="image" src="https://github.com/user-attachments/assets/2b2e585c-1be5-453e-8c0a-2a00bae768ed" />
+
+ | <img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/0c5ce13a-61a6-4ee2-ba24-3a9301c27c99" />
+ |
 
 ---
 
 ## 📬 Contact
 
 👤 **Vishal Mandrai**
-📧 [vishal.mandrai@gmail.com](mailto:vishal.mandrai@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/vishalmandrai)
+📧 [vishal.mandrai@gmail.com](mailto:vishalm.nitt@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/vishalmandrai999/)
 💻 [GitHub](https://github.com/vishalmandrai)
 
 ---
-
-## 🏁 Future Enhancements
-
-* ✅ Add live price updates from real estate APIs
-* ✅ Integrate Google Maps and heatmaps
-* 🔜 Time-series price trend analysis
-* 🔜 Model explainability with SHAP
-
 ---
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Would you like me to generate a **second version of this README with emoji-rich formatting and GitHub markdown styling (colored titles, badges, table design)** — optimized for visual impact on your GitHub profile?
-
-
-
-
