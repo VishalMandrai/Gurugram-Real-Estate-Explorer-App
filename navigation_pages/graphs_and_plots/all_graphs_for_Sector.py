@@ -216,7 +216,7 @@ def cheapest_prop_det(data):
     data = data[data['Price_in_rupees'] == data['Price_in_rupees'].min()][['Flat', 
                                                                            'Address', 'Price']].values
     Flat = data[0][0] 
-    Address = data[0][1][:data[0][1].index(", S") + 1] + '\n' + data[0][1][data[0][1].index(", S") + 2 : ]
+    Address = data[0][1] #[:data[0][1].index(", S") + 1] + '\n' + data[0][1][data[0][1].index(", S") + 2 : ]
     Price = data[0][2]
     return Flat, Address, Price
 
@@ -224,7 +224,7 @@ def most_expensive_prop_det(data):
     data = data[data['Price_in_rupees'] == data['Price_in_rupees'].max()][['Flat', 
                                                                            'Address', 'Price']].values
     Flat = data[0][0] 
-    Address = data[0][1][:data[0][1].index(", S") + 1] + '\n' + data[0][1][data[0][1].index(", S") + 2 : ]
+    Address = data[0][1] #[:data[0][1].index(", S") + 1] + '\n' + data[0][1][data[0][1].index(", S") + 2 : ]
     Price = data[0][2]
     return Flat, Address, Price
 
