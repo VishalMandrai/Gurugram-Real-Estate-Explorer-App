@@ -21,37 +21,44 @@
 
 ---
 
-## 📘 Overview
-
-The **Gurugram Real Estate Explorer App** is an interactive data science web app built with **Streamlit**, offering an intuitive way to analyze, visualize, and predict **property prices** across **Gurugram’s residential sectors**.
-
-It combines **data-driven insights**, **rich geospatial visualizations**, and **machine learning models** to help users explore the housing market — from local price densities to predictive analytics.
+## **📘 OVERVIEW**
+The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based web application** designed to help **home buyers, real estate investors, developers, and policymakers** explore the Gurugram property market in depth. The app combines interactive analytics, predictive modeling, and recommendation systems to provide actionable insights based on the latest property data.
 
 ---
 
-## 🚀 Key Features
+## **🚀 Key Features**
 
-### 🧭 **1. Interactive Data Exploration**
+* **`I.` 🧭 Market Analytics & Insights:** Explore Gurugram’s real estate landscape through interactive charts, sector-level comparisons, and key metrics like pricing, built-up area, and affordability.
+* **`II.` 🗺️ Sector Explorer:** Dive into individual sectors with visualizations including maps, scatter plots, histograms, and trend graphs for a complete sector-level understanding.
+* **`III.` 💰 Price Prediction:** Input property specifications (flat type, area, bedrooms, floor, amenities, locality, etc.) to estimate the probable price range using the trained ML model.
+* **`IV.` 📊 Society Recommendation Engine:** Discover the **Top 10 similar societies** based on pricing, location, and amenities, with listings linked for further exploration.
+
+Built on the latest data from major housing platforms, the app serves both as a **quick market reference** and a **deep-dive analytical tool**, allowing users to study trends, compare localities, and make informed property-related decisions.
+
+**Live App Link:** [Gurugram Real Estate Explorer](https://gurugram-real-estate-explorer.streamlit.app/)
+
+
+###  **1. Interactive Data Exploration**
 * Explore flats across **Gurgaon sectors and localities**
 * Filter by **furnishing**, **parking** and **amenities**
 * Dynamic **boxplots, bar charts, and density plots** powered by Plotly
 
-### 💰 **2. Price Density Analytics**
+###  **2. Price Density Analytics**
 * Visualizes **Median Price Density (₹/sq.ft)** for each locality
 * Understand **floor-rise premiums**, **builder effects**, and **neighborhood price clusters**
 * Supports **sector-wise comparison** and **area segmentation**
 
-### 🧠 **3. Machine Learning Price Prediction**
+###  **3. Machine Learning Price Prediction**
 * Built and optimized using **XGBoost Regressor**
 * Features include: `Area`, `Sector`, `Furnishing`, `Parking`, etc.
 * Handles categorical + numerical data using a **custom feature engineering pipeline**
 * Supports **real-time price predictions** in the app.
 
-### 🗺️ **4. Map-Based Visual Insights**
+###  **4. Map-Based Visual Insights**
 * Interactive **Folium + OpenStreetMap** visualization of listings
 * Sector and amenity markers with tooltips for each sector
 
-### 📊 **5. Business-Level Insights**
+###  **5. Business-Level Insights**
 * Highlights **hot sectors**, **premium projects**, and **affordable zones**
 
 ---
@@ -137,6 +144,8 @@ Key learnings:
 */ # **🏙️ Gurugram Real Estate Explorer - App** [🔗](https://gurugram-real-estate-explorer.streamlit.app/) /*
 
 Write a cool and crisp introduction of Streamlit app for Readme document. It is a streamlit application built for Home buyers, investors, developers and policy makers to explore and study the Gurugram real estate landscape in detail and although it is not suggested but since the application uses latest property data, the information on app can be used for making critical decisions too. The app provides two dedicated tabs one for market analytics which gives a broad picture of gurugram real estate market through various interactive plots and charts built using visulaization libraries like Matplotlib, Seaborn, Plotly and folium for map work. The other tab covers Market Insights, it tells what are price drivers in Gurugram and talks about 
+
+
 
 
 ---
