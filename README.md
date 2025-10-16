@@ -28,10 +28,14 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
 
 ## **🚀 Key Features**
 
-* **`I.` 🧭 Market Analytics & Insights:** Explore Gurugram’s real estate landscape through interactive charts, sector-level comparisons, and key metrics like pricing, built-up area, and affordability.
-* **`II.` 🗺️ Sector Explorer:** Dive into individual sectors with visualizations including maps, scatter plots, histograms, and trend graphs for a complete sector-level understanding.
-* **`III.` 💰 Price Prediction:** Input property specifications (flat type, area, bedrooms, floor, amenities, locality, etc.) to estimate the probable price range using the trained ML model.
-* **`IV.` 📊 Society Recommendation Engine:** Discover the **Top 10 similar societies** based on pricing, location, and amenities, with listings linked for further exploration.
+* **`I.` 🧭 Market Analytics & Insights:**
+  * Explore Gurugram’s real estate landscape through interactive charts, sector-level comparisons, and key metrics like pricing, built-up area, and affordability.
+* **`II.` 🗺️ Sector Explorer:**
+  * Dive into individual sectors with visualizations including maps, scatter plots, histograms, and trend graphs for a complete sector-level understanding.
+* **`III.` 💰 Price Prediction:**
+  * Input property specifications (flat type, area, bedrooms, floor, amenities, locality, etc.) to estimate the probable price range using the trained ML model.
+* **`IV.` 📊 Society Recommendation Engine:**
+  * Discover the **Top 10 similar societies** based on pricing, location, and amenities, with listings linked for further exploration.
 
 Built on the latest data from major housing platforms, the app serves both as a **quick market reference** and a **deep-dive analytical tool**, allowing users to study trends, compare localities, and make informed property-related decisions.
 
