@@ -26,10 +26,26 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
 
 <br>
 
-## **🚀 Key Features**
+## **🚀 KEY FEATURES**
 
 * **`I.` 🧭 Market Analytics & Insights:**
-  * Explore Gurugram’s real estate landscape through interactive charts, sector-level comparisons, and key metrics like pricing, built-up area, and affordability.
+  * **Dedicated Tabs:**
+    * **Market Analytics:** Provides a broad overview of the Gurugram real estate market.
+    * **Market Insights:** Highlights key price drivers and interesting trends across Gurugram.
+  * **Interactive Visualizations** — Uses for interactive maps and plots. Map-based visualizations mark Sectors and Locality boundaries.
+  * **Market Analytics Tab:**
+    * Gives a **bird’s-eye view** of pricing, property specifications, sector-wise and locality-wise comparisons.
+    * Helps identify patterns across flat types, building heights, furnishing status, parking availability, and more.
+  * **Market Insights Tab:**
+    * Explains **price drivers** and critical factors influencing property values.
+    * Provides **crisp textual insights** alongside interactive charts for quick and informed reading.
+    * Helps users, investors, and policy makers quickly understand key trends and make data-driven observations.
+  * **Purpose:**
+    * Allows users to **explore the Gurugram real estate market** from multiple angles — both visually and analytically.
+    * Supports both **detailed research** and **quick market checks** through an intuitive dashboard.
+
+
+
 * **`II.` 🗺️ Sector Explorer:**
   * Dive into individual sectors with visualizations including maps, scatter plots, histograms, and trend graphs for a complete sector-level understanding.
 * **`III.` 💰 Price Prediction:**
@@ -147,8 +163,18 @@ Key learnings:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */ # **🏙️ Gurugram Real Estate Explorer - App** [🔗](https://gurugram-real-estate-explorer.streamlit.app/) /*
 
-Write a cool and crisp introduction of Streamlit app for Readme document. It is a streamlit application built for Home buyers, investors, developers and policy makers to explore and study the Gurugram real estate landscape in detail and although it is not suggested but since the application uses latest property data, the information on app can be used for making critical decisions too. The app provides two dedicated tabs one for market analytics which gives a broad picture of gurugram real estate market through various interactive plots and charts built using visulaization libraries like Matplotlib, Seaborn, Plotly and folium for map work. The other tab covers Market Insights, it tells what are price drivers in Gurugram and talks about 
+Here’s a clear set of pointers you can add for the **Market Analytics & Insights** feature in your README:
 
+---
+
+### Market Analytics & Insights
+
+
+
+---
+
+If you want, I can also write similar **pointers for the Sector Explorer, Price Prediction, and Society Recommendation Engine** sections so all app features are described uniformly in your README. Do you want me to do that next?
+ 
 
 
 
