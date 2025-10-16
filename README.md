@@ -142,11 +142,14 @@ streamlit run gurgaon_app.py
 ### **`Home Page`**
 <img width="1918" height="829" alt="image" src="https://github.com/user-attachments/assets/8701d978-07bd-4158-b418-6cf69d1cad1e" /> 
 
-### **`Analytics Page`**
+### **`Sector Explorer Tab`**
 <img width="1919" height="807" alt="image" src="https://github.com/user-attachments/assets/2b2e585c-1be5-453e-8c0a-2a00bae768ed" /> 
 
-### **`Prediction Page`**
+### **`Price Prediction Tab`**
 <img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/0c5ce13a-61a6-4ee2-ba24-3a9301c27c99" />
+
+### **`Society Recommendation Tab`**
+<img width="1893" height="772" alt="image" src="https://github.com/user-attachments/assets/f59c474b-c257-415b-af36-cee645c5b66c" />
 
 ---
 <br>
