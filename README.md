@@ -58,14 +58,11 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
   * **Robust Regression Model:** Predicts a **price range** for a property based on specifications provided by the user.
   * **Deployed Model:** Uses a **Bayesian-optimized XGBoost Regressor**, selected after rigorous testing against multiple models, including various **Linear models, Bagging, and Boosting models**.
   * **Model Performance:**
-    * **Test R²:** 0.92
-    * **Train R²:** 0.95
-    * **MAE:** ~ ₹30 Lakh
+    * **Test R²:** **`0.92`**
+    * **Train R²:** **`0.95`**
+    * **MAE:** **`~ ₹30 Lakh`**
   * **Input Features:** Accepts key property specifications such as **flat type, built-up area, bedrooms, bathrooms, floor, locality, and amenity score**.
   * **Purpose:** Provides **reliable, data-driven price estimates**, assisting buyers, investors, and developers in assessing property values quickly and confidently.
-
-
-
 
 
 ### **`IV.` `📊 Society Recommendation Engine:`**
