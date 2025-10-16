@@ -28,7 +28,7 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
 
 ## **🚀 KEY FEATURES**
 
-* **`I.` 🧭 Market Analytics & Insights:**
+### **`I.` `🧭 Market Analytics & Insights:`**
   * **Dedicated Tabs:**
     * **Market Analytics:** Provides a broad overview of the Gurugram real estate market.
     * **Market Insights:** Highlights key price drivers and interesting trends across Gurugram.
