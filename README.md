@@ -53,15 +53,21 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
   * **Purpose:**
     * Helps users gather **key, actionable information** about a sector, including pricing trends, amenities, property types, and developers — all in one place for quick reference or detailed study.
 
----
-
-If you want, I can now draft **pointers for the Price Prediction Tool and Society Recommendation Engine** so the README has a consistent feature-wise description.
-
-
-
 
 ### **`III.` `💰 Price Prediction:`**
-  * Input property specifications (flat type, area, bedrooms, floor, amenities, locality, etc.) to estimate the probable price range using the trained ML model.
+  * **Robust Regression Model:** Predicts a **price range** for a property based on specifications provided by the user.
+  * **Deployed Model:** Uses a **Bayesian-optimized XGBoost Regressor**, selected after rigorous testing against multiple models, including various **Linear models, Bagging, and Boosting models**.
+  * **Model Performance:**
+    * **Test R²:** 0.92
+    * **Train R²:** 0.95
+    * **MAE:** ~ ₹30 Lakh
+  * **Input Features:** Accepts key property specifications such as **flat type, built-up area, bedrooms, bathrooms, floor, locality, and amenity score**.
+  * **Purpose:** Provides **reliable, data-driven price estimates**, assisting buyers, investors, and developers in assessing property values quickly and confidently.
+
+
+
+
+
 ### **`IV.` `📊 Society Recommendation Engine:`**
   * Discover the **Top 10 similar societies** based on pricing, location, and amenities, with listings linked for further exploration.
 
