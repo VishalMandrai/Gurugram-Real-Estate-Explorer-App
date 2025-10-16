@@ -66,41 +66,27 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
 
 
 ### **`IV.` `📊 Society Recommendation Engine:`**
-  * Discover the **Top 10 similar societies** based on pricing, location, and amenities, with listings linked for further exploration.
+  * **Content-based Filtering:** Suggests the **Top 10 most Similar Societies** based on multiple factors.
+  * **Key Considerations:**
+    * **Property Pricing** (highest priority)
+    * **Nearby Locations** (high priority)
+    * **Societal Amenities** (lower priority)
+  * **Weighted Recommendation:** Combines **three separate recommendation modules** into a single, unified engine using weighted priorities.
+  * **Property Listings:** Displays available properties in the recommended societies, including **pricing, property type, and actionable links**.
+  * **Robust & Manually Tested:** The engine was **manually tested** and found to be **reliable, practical, and useful** for home buyers, investors, and developers.
+  * **Purpose:** Helps users quickly **discover similar societies**, compare properties, and make **data-driven location decisions**.
 
 Built on the latest data from major housing platforms, the app serves both as a **quick market reference** and a **deep-dive analytical tool**, allowing users to study trends, compare localities, and make informed property-related decisions.
 
-**Live App Link:** [Gurugram Real Estate Explorer](https://gurugram-real-estate-explorer.streamlit.app/)
+### **Live App Link:** [Gurugram Real Estate Explorer](https://gurugram-real-estate-explorer.streamlit.app/)
 
-
-###  **1. Interactive Data Exploration**
-* Explore flats across **Gurgaon sectors and localities**
-* Filter by **furnishing**, **parking** and **amenities**
-* Dynamic **boxplots, bar charts, and density plots** powered by Plotly
-
-###  **2. Price Density Analytics**
-* Visualizes **Median Price Density (₹/sq.ft)** for each locality
-* Understand **floor-rise premiums**, **builder effects**, and **neighborhood price clusters**
-* Supports **sector-wise comparison** and **area segmentation**
-
-###  **3. Machine Learning Price Prediction**
-* Built and optimized using **XGBoost Regressor**
-* Features include: `Area`, `Sector`, `Furnishing`, `Parking`, etc.
-* Handles categorical + numerical data using a **custom feature engineering pipeline**
-* Supports **real-time price predictions** in the app.
-
-###  **4. Map-Based Visual Insights**
-* Interactive **Folium + OpenStreetMap** visualization of listings
-* Sector and amenity markers with tooltips for each sector
-
-###  **5. Business-Level Insights**
-* Highlights **hot sectors**, **premium projects**, and **affordable zones**
 
 ---
 
-## 🧩 Tech Stack
 
-| Category             | Tools / Libraries              |
+## **🧩 TECH STACK**
+
+| ✨ Category             | 🤖 Tools / Libraries              |
 | -------------------- | ------------------------------ |
 | **Language**         | Python 3.9+                    |
 | **Web Framework**    | Streamlit                      |
@@ -112,14 +98,15 @@ Built on the latest data from major housing platforms, the app serves both as a 
 
 
 ---
+<br>
 
-## ⚙️ Installation & Setup
+## **⚙️ Installation & Setup**
 
 ### 🔸 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Gurugram-RealEstate-Explorer.git
-cd Gurugram-RealEstate-Explorer
+git clone https://github.com/VishalMandrai/Gurugram-Real-Estate-Explorer-App.git
+cd Gurugram-Real-Estate-Explorer-App
 ```
 
 ### 🔸 Create a virtual environment
@@ -142,13 +129,15 @@ pip install -r requirements.txt
 streamlit run gurgaon_app.py
 ```
 
----
 
-## 🧠 Model Insights
+---
+<br>
+
+
+## **🧠 Model Insights**
 
 The ML pipeline uses **feature engineering** + **XGBoost optimization via Optuna**.
 Key learnings:
-
 * Price strongly depends on **locality density**, **floor-rise premium**, and **furnishing status**
 * Incorporating **Median Price Density (MPD)** as a spatial feature improved performance significantly
 * Achieved an **R² score of ~0.90** on test data
