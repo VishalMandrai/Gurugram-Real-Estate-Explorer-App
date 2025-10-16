@@ -6,14 +6,17 @@
 
 > **NOTE:** Although not a substitute for professional consulting, this tool utilizes the **latest property data** to provide intelligent, data-driven insights — powerful enough to support informed decision-making.
 
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-lightblue?logo=plotly)
-![XGBoost](https://img.shields.io/badge/XGBoost-Model-green?logo=xgboost)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-orange?logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-yellow?logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal?logo=seaborn)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-lightblue?logo=plotly)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML%20Library-orange?logo=scikit-learn)
+![XGBoost](https://img.shields.io/badge/XGBoost-Model-green?logo=xgboost)
+![Folium](https://img.shields.io/badge/Folium-Interactive%20Maps-lightblue?logo=python)
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-GeoData-green?logo=openstreetmap)
+
 
 
 ---
