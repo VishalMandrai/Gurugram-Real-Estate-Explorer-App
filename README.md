@@ -135,16 +135,6 @@ streamlit run gurgaon_app.py
 <br>
 
 
-## **🧠 Model Insights**
-
-The ML pipeline uses **feature engineering** + **XGBoost optimization via Optuna**.
-Key learnings:
-* Price strongly depends on **locality density**, **floor-rise premium**, and **furnishing status**
-* Incorporating **Median Price Density (MPD)** as a spatial feature improved performance significantly
-* Achieved an **R² score of ~0.90** on test data
-
----
-
 ## **📸 Application Screenshots**
 
 ### **`Home Page`**
@@ -154,33 +144,18 @@ Key learnings:
 <img width="1919" height="807" alt="image" src="https://github.com/user-attachments/assets/2b2e585c-1be5-453e-8c0a-2a00bae768ed" /> 
 
 ### **`Prediction Page`**
-<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/0c5ce13a-61a6-4ee2-ba24-3a9301c27c99" /> |
+<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/0c5ce13a-61a6-4ee2-ba24-3a9301c27c99" />
 
 ---
+<br>
 
-## 📬 Contact
+
+## **📬 Contact Me**
 
 👤 **Vishal Mandrai**
-📧 [vishalm.nitt@gmail.com](mailto:vishalm.nitt@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/vishal-mandrai999/)
-💻 [GitHub](https://github.com/vishalmandrai)
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/ # **🏙️ Gurugram Real Estate Explorer - App**  /*
-
-Here’s a clear set of pointers you can add for the **Market Analytics & Insights** feature in your README:
-
----
-
-### Market Analytics & Insights
-
-
-
----
-
-If you want, I can also write similar **pointers for the Sector Explorer, Price Prediction, and Society Recommendation Engine** sections so all app features are described uniformly in your README. Do you want me to do that next?
- 
-
+* **📧** [vishalm.nitt@gmail.com](mailto:vishalm.nitt@gmail.com)
+* **🔗** [LinkedIn](https://linkedin.com/in/vishal-mandrai999/)
+* **💻** [GitHub](https://github.com/vishalmandrai)
 
 
 ---
