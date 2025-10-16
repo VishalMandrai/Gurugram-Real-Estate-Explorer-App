@@ -21,10 +21,9 @@
 
 ---
 
-## **📘 OVERVIEW**
+## **📘 OVERVIEW [🔗](https://gurugram-real-estate-explorer.streamlit.app/)**
 The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based web application** designed to help **home buyers, real estate investors, developers, and policymakers** explore the Gurugram property market in depth. The app combines interactive analytics, predictive modeling, and recommendation systems to provide actionable insights based on the latest property data.
 
-<br>
 
 ## **🚀 KEY FEATURES**
 
@@ -45,9 +44,22 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
     * Supports both **detailed research** and **quick market checks** through an intuitive dashboard.
 
 
-
 ### **`II.` `🗺️ Sector Explorer:`**
-  * Dive into individual sectors with visualizations including maps, scatter plots, histograms, and trend graphs for a complete sector-level understanding.
+  * **Dedicated Tab:** Provides a focused interface to **explore individual Sectors** of Gurugram.
+  * **Interactive Map:** Displays the selected sector with **sector amenities**, and **rough sector boundaries**.
+  * **Property Overview:** Shows available properties in the sector with **types, pricing, and distribution**.
+  * **Sector Segmentation:** Highlights the **Affordability Segment** of the sector using **Sector Median Price Density**.
+  * **Wordcloud Insights:** Names **Societies and Active Developers** in the sector through intuitive wordcloud visualizations.
+  * **Purpose:**
+    * Helps users gather **key, actionable information** about a sector, including pricing trends, amenities, property types, and developers — all in one place for quick reference or detailed study.
+
+---
+
+If you want, I can now draft **pointers for the Price Prediction Tool and Society Recommendation Engine** so the README has a consistent feature-wise description.
+
+
+
+
 ### **`III.` `💰 Price Prediction:`**
   * Input property specifications (flat type, area, bedrooms, floor, amenities, locality, etc.) to estimate the probable price range using the trained ML model.
 ### **`IV.` `📊 Society Recommendation Engine:`**
@@ -161,7 +173,7 @@ Key learnings:
 💻 [GitHub](https://github.com/vishalmandrai)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/ # **🏙️ Gurugram Real Estate Explorer - App** [🔗](https://gurugram-real-estate-explorer.streamlit.app/) /*
+*/ # **🏙️ Gurugram Real Estate Explorer - App**  /*
 
 Here’s a clear set of pointers you can add for the **Market Analytics & Insights** feature in your README:
 
