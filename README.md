@@ -90,11 +90,12 @@ Built on the latest data from major housing platforms, the app serves both as a 
 | -------------------- | ------------------------------ |
 | **Language**         | Python 3.9+                    |
 | **Web Framework**    | Streamlit                      |
-| **Visualization**    | Plotly, Folium, Matplotlib     |
-| **Machine Learning** | XGBoost, Scikit-learn, Optuna  |
-| **Data Processing**  | Pandas, NumPy                  |
-| **Deployment**       | Streamlit Cloud / GitHub Pages |
-| **Version Control**  | Git + GitHub                   |
+| **Visualization**    | Plotly, Folium, Matplotlib, Seaborn|
+| **Machine Learning** | XGBoost, Scikit-learn, Optuna|
+| **Data Collection**  | Selenium, Beautiful Soup |
+| **Data Processing**  | Pandas, NumPy                           |
+| **Deployment**       | Streamlit Cloud / GitHub Pages          |
+| **Version Control**  | Git + GitHub                            |
 
 
 ---
