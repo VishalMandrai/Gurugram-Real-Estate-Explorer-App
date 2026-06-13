@@ -1,5 +1,6 @@
+<!-- <img width="878" height="115" alt="Github_readme_title_banner" src="https://github.com/user-attachments/assets/71c23815-cf94-4048-8ef9-90ef5f2c3657" href="https://gurugram-real-estate-explorer.streamlit.app/" /> -->
 
-<img width="878" height="115" alt="Github_readme_title_banner" src="https://github.com/user-attachments/assets/71c23815-cf94-4048-8ef9-90ef5f2c3657" href="https://gurugram-real-estate-explorer.streamlit.app/" />
+<img width="1672" height="941" alt="gurugram-app-banner" src="https://github.com/user-attachments/assets/92df3bae-93b8-45db-9522-9f589641ebde" />
 
 
 #### 🔍 An Interactive Data Science App designed for **Homebuyers, Investors, Developers, and Policy makers** to explore the real estate dynamics of Gurugram with ease. Built on the latest data from leading housing platforms, this app serves both as a **market snapshot** and a **tool for in-depth analysis**.
