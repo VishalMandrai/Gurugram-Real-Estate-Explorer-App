@@ -22,7 +22,7 @@
 
 ---
 
-## **📘 OVERVIEW [🔗](https://gurugram-real-estate-explorer.streamlit.app/)**
+## **📘 OVERVIEW [🔗](https://www.gurugramapp.online)**
 The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based web application** designed to help **home buyers, real estate investors, developers, and policymakers** explore the Gurugram property market in depth. The app combines interactive analytics, predictive modeling, and recommendation systems to provide actionable insights based on the latest property data.
 
 <img width="4000" height="730" alt="Banner_for_readme" src="https://github.com/user-attachments/assets/f043ce0a-ac03-4fdf-92a7-6ddb31d11106" />
