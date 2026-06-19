@@ -81,7 +81,7 @@ The **Gurugram Real Estate Explorer App** is a comprehensive **Streamlit-based w
 
 Built on the latest data from major housing platforms, the app serves both as a **quick market reference** and a **deep-dive analytical tool**, allowing users to study trends, compare localities, and make informed property-related decisions.
 
-### **Live App Link:** [Gurugram Real Estate Explorer](https://gurugram-real-estate-explorer.streamlit.app/)
+### **Live App Link:** [Gurugram Real Estate Explorer](https://www.gurugramapp.online)
 
 
 ---
