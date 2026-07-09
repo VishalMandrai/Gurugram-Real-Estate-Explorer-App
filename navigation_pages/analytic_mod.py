@@ -15,9 +15,16 @@ def page_content():
     
     ## Analytics Module heading in the box:
     st.markdown(
+        """<div style="background-color:#5AA2E6; padding:3px; 
+        border-radius:5px; text-align:center;"></div>
+        
+        """, unsafe_allow_html=True)
+    
+    ## Analytics Module heading in the box:
+    st.markdown(
         """<div style="background-color:#5AA2E6; padding:5px; 
         border-radius:5px; text-align:center;">
-        <p style="color:#000000; font-size:44px; font-weight:600; margin:0; font-family: calibri">
+        <p style="color:#000000; font-size:30px; font-weight:600; margin:0; font-family: calibri">
         ANALYTICS MODULE </p>
         </div>
         """, unsafe_allow_html=True)
