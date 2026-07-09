@@ -86,159 +86,6 @@ page_bg = """
 st.markdown(page_bg, unsafe_allow_html=True)   ## Changing BG color and styling...
 
 
-# ----------------------------------------------- Page layout functions -------------------------------------------
-def home_page():
-    ## Title of Page: 
-    st.markdown(
-        "<h1 style='text-align: center; color: white;'>🏡 Gurugram Real Estate Explorer</h1>",
-        unsafe_allow_html=True)
-    
-    ## About the project:
-    st.markdown(
-        """
-        <div style="background-color:rgba(61, 213, 109, 0.2); padding:12px; 
-        border-radius:8px; text-align:center;">
-        <p style="color:#D6EAF8; font-size:20px; font-weight:600; margin:0;">
-        This platform brings together an <b>Analytics Module</b>, <b>Insights Dashboard</b>, <b>Price Prediction engine</b>, and a Smart <b>Flat Recommendation System</b> to help you explore properties with ease.</p>
-        </div>
-        """, unsafe_allow_html=True)
-    st.markdown("")
-
-    
-    ## Project for:------------------------------------------------------------------------------------------------
-    st.markdown(
-        """
-        <div style="background-color:#16324F; padding:5px; border-radius:8px; text-align:center;">
-        <p style="color:#ffffff; font-size:30px; font-weight:600; margin:0;">
-        ALL IN ONE APP FOR
-        </p></div>
-        """, unsafe_allow_html=True)
-    
-    st.markdown("")
-
-    col1, col2, col3, col4 = st.columns(4)    ## Creating 4 side-by-side sections...
-    for section, app_user in zip([col1, col2, col3, col4], 
-                                 ['BUYERS', 'DEVELOPERS', 'INVESTORS','POLICY MAKERS']):
-        with section:  ## Now we'll use context manager ('with') to access these sections
-            st.markdown(
-            f"""
-            <div style="background-color:#EB9642; padding:5px; border-radius:8px; text-align:center;">
-            <p style="color:#000000; font-size:24px; font-weight:600; margin:0; 
-            font-weight:bold;">{app_user}</p>
-            </div>
-            """, unsafe_allow_html=True)
-
-
-    
-    ## Project Introductory Content: ----------------------------------------------------------------------------
-    col1, col2 = st.columns([7,3])
-    with col1:
-        st.markdown(
-            """
-            <style>
-            .big-font {
-                font-size:20px !important;
-                font-weight:100 !important;
-                color: #FFFFFF !important; 
-                line-height: 1.28 !important;
-                font-family: calibri !important;}
-            
-            .med-font {
-                font-size:20px !important;
-                font-weight:80 !important;
-                color: #FFFFFF !important; 
-                line-height: 1.28 !important;
-                font-family: calibri !important;}
-            </style>
-            
-            <div class="big-font">
-            <br><span style="font-size:28px; font-weight:bold; color:#50FAA0; font-family: calibri !important;">Gurugram</span> is <b>no longer</b> just a satellite extension to Delhi — it has become a 
-                <b>fully-fledged real estate powerhouse</b> driven by: 
-                <ul>
-                    <li class="med-font"><b>Robust Public Infrastructure</b></li>
-                    <li class="med-font"><b>Evolving Demand</b></li>
-                    <li class="med-font"><b>Strategic Policy Shifts</b></li>
-                </ul>
-            </div>
-            
-            <p class="med-font">
-            Over the past few years the city has witnessed <b>major connectivity feats</b> such as the <b>operationalization of Dwarka Expressway</b>, <b>expansions in metro links</b>, and <b>renewed focus on expressways and corridors</b> that bind Gurugram more tightly to <b>Delhi/NCR</b> 28nd the IGI Airport</b>. These <b>developments have reshaped</b> the geography of <b>demand</b>, <b>pushing property values sharply</b> along key corridors while opening up peripheral sectors for medium-to-long-term growth. </p>
-            """, unsafe_allow_html=True)
-
-    ## Features: --------------------------------------------------------------------------------------------------
-    with col2:
-        st.markdown("<br><br>", unsafe_allow_html=True)
-        for feature, link in zip(['PRICE PREDICTION MODEL', 'RECOMMENDATION ENGINE', 'MARKET DASHBOARDS'],
-                                ["price_pred", "rec_mod", "insights_mod"]):
-            st.markdown(
-            f"""
-            <div style="background-color:#659FD6; padding:5px; border-radius:8px; text-align:center;">
-            <p style="color:#000000; font-size:24px; font-weight:600; margin:0; 
-            font-weight:bold;">
-            <a href="/{link}" target="_self" style="all:unset; cursor: pointer;">{feature}</a></p>
-            </div>
-            <div><br></div>
-            """, unsafe_allow_html=True)
-
-    ## Rest of the content continues...
-    st.markdown(
-        """
-        <style>
-        .big-font {
-            font-size:20px !important;
-            font-weight:100 !important;
-            color: #FFFFFF !important; 
-            line-height: 1.28 !important;
-            font-family: calibri !important;}
-        
-        .med-font {
-            font-size:20px !important;
-            font-weight:80 !important;
-            color: #FFFFFF !important; 
-            line-height: 1.28 !important;
-            font-family: calibri !important;}
-        </style>
-        
-        <div>
-        <p class="med-font">For <span style="font-size:28px; font-weight:bold; color:#27F5EB; font-family: calibri !important;">HOME BUYERS</span>, <b>affordability has become a moving target</b>. Homes in newly connected sectors that offer value are pushing up prices even in mid-segments. <b>Buyers now expect more:</b> </p>
-        <ul>
-        <li class="med-font"><b>Wellness Amenities</b>,</li>
-        <li class="med-font"><b>Green/open Spaces</b>, and</li>
-        <li class="med-font"><b>Mixed-use Townships</b>.</li>
-        </ul>
-        <p class="med-font"><b>Smart homes</b> are <b>no longer luxury add-ons</b> but baseline requirements. <b>Projects that combine lifestyle, access, and legal certainty</b> (thanks to regulations like RERA) are <b>winning trust</b>. </p>
-        </div>
-
-        <div>
-        <p class="med-font"><span style="font-size:28px; font-weight:bold; color:#DAF527; font-family: calibri !important;">DEVELOPERS</span> are <b>navigating both opportunity and risk</b>.</p>
-        <ul>
-        <li class="med-font">On one hand, well-located land, favourable policies, and strong demand in luxury, premium, and mid-housing segments offer <b>high capital appreciation</b>, especially in posh zones.</li>
-        <li class="med-font"> On the other hand, rising input costs, stricter regulatory oversight, and growing expectations for sustainability and public infrastructure place <b>pressure on margins and timelines</b>.</li>
-        </ul>
-        <p class="med-font"><b>To succeed</b>, developers need to <b>shift towards</b> — <b>integrated townships</b>, <b>mixed use projects</b>, and <b>more transparent project disclosures</b>.</p>
-        </div>
-
-        <div>
-        <p class="med-font">
-        <span style="font-size:28px; font-weight:bold; color:#F0C781; font-family: calibri !important;">INVESTORS</span> see Gurugram as a <b>fertile ground for</b> both <b>Income Yield</b> and <b>Capital Appreciation</b>. <b>Rental demand</b> remains strong <b>driven by</b> &mdash; <i><b>Corporates</b></i>, <i><b>Millennials</b></i>, and <i><b>NRIs</b></i>, especially for premium apartments and office-spaces. Recent trends show that property prices along strategic corridors (e.g. Dwarka Expressway) have nearly doubled in recent years, with projections of <b>further growth of ~15-20%</b> in near term, <b>depending on infrastructure rollout</b>. </p>
-        
-        <p class="med-font">But <b>risks include</b> <b>over-supply in certain sectors</b>, <b>regulatory delays</b>, and <b>affordability bottlenecks</b> which <i><b>might slow absorption rates</b></i>.</p>
-        </div>
-
-        <div>
-        <p class="med-font">For <span style="font-size:28px; font-weight:bold; color:#418EFA; font-family: calibri !important;">POLICY MAKERS</span>, Gurugram <b>offers a template of <i>high growth</i></b>, but <b>also a mandate to guide that growth <i>sustainably and equitably</i></b>. Key levers include &mdash;</p>
-        <ul>
-        <li class="med-font"><b>Regulating Policy Charges</b> like EDC to balance revenue for infrastructure with affordable access;</li>
-        <li class="med-font"><b>Ensuring</b> that <b>connectivity infrastructure keeps pace with new launches</b>;</li>
-        <li class="med-font"><b>Enforcing transparency and quality</b> via <b>legislation</b> (e.g. RERA, building norms, environmental rules);</li>
-        <li class="med-font"><b>Planning</b> for inclusive housing so growth is not limited to only luxury/premium segments.</li>
-        </ul>
-        
-        <p class="med-font"><b>With thoughtful policy alignment</b>, Gurugram can continue to be a leading city in <b>India’s real estate ecosystem</b> &mdash; one that appeals to all stakeholders.</p>
-        </div>
-        
-        """,unsafe_allow_html=True)
-
 
 ## App Starts from here: ----------------------------------------------------------------------------------------
 
@@ -250,7 +97,8 @@ def main():
 
     ## Sidebar Navigation:
     pages = {"MENU" : 
-                   [st.Page(home_page, title="🏗️ Home")],
+                   [st.Page("navigation_pages/home_page.py", 
+                            title="🏗️ Home")],
              "Analytic Dashboards":
                     [st.Page("navigation_pages/analytic_mod.py", 
                             title="📊 Know the Market"),
@@ -260,44 +108,80 @@ def main():
                     [st.Page("navigation_pages/price_pred.py", title="💰 Price Prediction Model"),
                     st.Page("navigation_pages/rec_mod.py", title="🎯 Recommendation Engine")],
              
-             "MORE": [st.Page("navigation_pages/about_me.py", title="ℹ️ About Me")]}
+             "MORE": [st.Page("navigation_pages/about_me.py", title="ℹ️ About")]}
     
     pg = st.navigation(pages)
     pg.run()
 
     ## Optional quick help & links:
     with st.sidebar:
-        st.markdown( """
-        <br>
-        <div style="font-size: 18px;"><p>
-        <a href="https://www.linkedin.com/in/vishal-mandrai999/" target="_blank" style="
-          text-decoration:none;
-          background-color:#080707;
-          border: 1.1px solid #ffffff;
-          color:white;
-          font-weight:400;
-          padding:4px 8px;
-          border-radius:6px;">
-          in</a> : <a href="https://www.linkedin.com/in/vishal-mandrai999/" target="_blank"
-          style="all:unset; cursor: pointer; font-family: calibiri;">
-        vishalmandrai </a>        
-        </p></div>
-
-        <div style="font-size: 18px;">
-        <a href="mailto:vishalm.nitt@gmail.com" style="
-          text-decoration:none;
-          background-color:#080707;
-          border: 1.1px solid #ffffff;
-          padding:4px 6px;
-          border-radius:6px;
-          color:#fff;
-          font-weight:400;">
-          ✉︎</a> : <a href="mailto:vishalm.nitt@gmail.com"
-          style="all:unset; cursor: pointer; font-family: calibiri;">
-        mailto:vishalmandrai </a>        
+        st.markdown(
+        """
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 5px;">
+            <!-- Mail Button -->
+            <a href="mailto:your.vishalm.nitt@gmail.com" aria-label="Email"
+            style="background: #121111; border: 1px solid #FBF3EA ; color: #FBF3EA; 
+                    display: inline-flex; align-items: center; justify-content: center; gap: 10px; 
+                    padding: 5px 10px; border-radius: 5px; font-family: calibri, sans-serif; 
+                    font-size: 16px; letter-spacing: 0.1em; 
+                    font-weight: 800; text-decoration: none; transition: all 0.3s ease;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="#BF2626" stroke="#E8CFCF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0;">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+            <!-- GitHub Button -->
+            <a href="https://github.com/VishalMandrai" target="_blank" rel="noopener" aria-label="GitHub"
+            style="background: #121111; border: 1px solid #FBF3EA; color: #FBF3EA; 
+                    display: inline-flex; align-items: center; justify-content: center; gap: 2px; 
+                    padding: 5px 10px; border-radius: 5px; font-family: calibri, sans-serif; 
+                    font-size: 16px; letter-spacing: 0.1em; 
+                    font-weight: 800; text-decoration: none; transition: all 0.3s ease;">
+                <svg width="22" height="22" viewBox="0 0 23 23" fill="#ffffff" aria-hidden="true" style="flex-shrink: 0;">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466 -.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832 .092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688 -.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844 a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651 .64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017 C22 6.484 17.522 2 12 2Z" />
+                </svg>
+            </a>
+            <!-- LinkedIn Button -->
+            <a href="https://www.linkedin.com/in/vishal-mandrai999/" target="_blank" rel="noopener" aria-label="LinkedIn"
+            style="background: #121111; border: 1px solid #FBF3EA; color: #FBF3EA; 
+                    display: inline-flex; align-items: center; justify-content: center; gap: 10px; 
+                    padding: 5px 10px; border-radius: 5px; font-family: calibri, sans-serif; 
+                    font-size: 16px; letter-spacing: 0.1em; 
+                    font-weight: 800; text-decoration: none; transition: all 0.3s ease;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="#25A3E8" aria-hidden="true" style="flex-shrink: 0;">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065Zm1.782 13.019H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"/>
+                </svg>
+            </a>
+            <!-- X / Twitter Button -->
+            <a href="https://x.com/vishman__" target="_blank" rel="noopener" aria-label="X / Twitter"
+            style="background: #121111; border: 1px solid #FBF3EA; color: #FBF3EA; 
+                    display: inline-flex; align-items: center; justify-content: center; gap: 10px; 
+                    padding: 5px 10px; border-radius: 5px; font-family: calibri, sans-serif; 
+                    font-size: 16px; letter-spacing: 0.1em; 
+                    font-weight: 800; text-decoration: none; transition: all 0.3s ease;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="flex-shrink: 0;">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746 l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126 H5.117L17.083 19.77Z"/>
+                </svg>
+            </a>
+            <!-- Portfolio Button -->
+            <a href="https://www.vishalm.online" target="_blank" rel="noopener" aria-label="Portfolio website"
+            style="background: #121111; border: 1px solid #FBF3EA; color: #FBF3EA; 
+                    display: inline-flex; align-items: center; justify-content: center; gap: 10px; 
+                    padding: 5px 10px; border-radius: 5px; font-family: calibri, sans-serif; 
+                    font-size: 16px; letter-spacing: 0.1em; 
+                    font-weight: 800; text-decoration: none; transition: all 0.3s ease;">
+                <span style="margin-left: 2px;">My Website</span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9FA6E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0;">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="2" y1="12" x2="22" y2="12"/>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+            </a>
         </div>
-        """, unsafe_allow_html=True)
-
+        """, 
+        unsafe_allow_html=True
+    )
+     
     
     #st.sidebar.info("Add some info about using the App properly!")
 
